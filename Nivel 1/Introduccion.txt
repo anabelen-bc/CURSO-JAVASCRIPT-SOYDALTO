@@ -1,0 +1,28 @@
+Es una herramienta que permite darle instrucciones a un ordenador
+Es un leguaje interpretado - en tiempo real
+Orientado a objetos
+Imperativo todas las instrucciones van linea por linea
+Es un leguaje case sensitive (A tener cuidado con las mayusculas y minusculas)
+
+
+Nivel 1: 
+/*Variable, es un espacio que guardamos en memoria*/
+ numero = "dos"
+ alert(numero)
+
+ string = "cadena de texto" /*todo lo que va dentro de las comillas son cadena de texto*/
+ number = 123
+ boolean = true 
+
+
+/*Tipos de datos var let const*/
+var numero = 15;
+const nombre = "Ana"; /*No pueden cambiar su valor, se inicializa una sola vez y cuando se declara*/
+let numero; /*Declaramos variables*/
+numero = 29 /*Inicializamos variables*/
+/*scope es el ambito de las variables, el alcance*/
+
+
+let numero = null; /*Variable vacia, pero se lo declaramos intencionalmente*/
+/*NaN no es un numero*/
+
