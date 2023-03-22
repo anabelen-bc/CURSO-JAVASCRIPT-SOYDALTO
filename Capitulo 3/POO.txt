@@ -11,3 +11,20 @@ Abstraccion, todo se resume en sus caracteristicas principales
 Modularidad, separar el problema por partes
 Encapsulamiento,intentar que no se tenga acceso a los datos de otros lugares
 Polimorfismo, los objetos se comportan distinto con el mismo metodo, porque sus propiedades son distintas
+
+
+Metodo Estatico, no necesita que la clase se defina, para ser creado
+static 
+
+Getters son para obtener un valor
+los SETTERS son para definir o agregar un valor
+las clases se definien con const 
+
+set modificarRaza(newName){
+    this.raza = newName;
+
+}
+
+get getRaza(){
+    return this.raza;
+}

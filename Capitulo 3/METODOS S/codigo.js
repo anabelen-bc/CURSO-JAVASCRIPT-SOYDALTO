@@ -25,27 +25,26 @@ class perro extends animal {
         super(especie,edad,color);
         this.raza = raza;
     }
-    ladrar(){
+    
+    static ladrar(){
         alert("¡Wawaw!")
+    } //  Un metodo statico funciona por si solo
+
+    set setRaza(newName){
+        this.raza = newName;
     }
 
+    get getRaza(){
+        return this.raza;
+    }
 }
 
 // No se puede tener un objeto con el mismo nombre que una clase 
 
-let perroo = new animal ("perro", 5, "marron", "doberman");
-let gato = new animal ("gato", 7, "blanco");
-let pajaro = new animal ("pajaro", 1, "verde");
+const perroo = new animal ("perro", 5, "marron", "doberman");
+const gato = new animal ("gato", 7, "blanco");
+const pajaro = new animal ("pajaro", 1, "verde");
 
-perro.ladrar();
-gato.ladrar();
+perro.setRaza = "Pedro"
 
-
-
-
-// perro.verInfo();
-// perro.ladrar();
-// gato.verInfo();
-// gato.ladrar();
-// pajaro.verInfo();
-// pajaro.ladrar();
+document.write(perro.getRaza);
