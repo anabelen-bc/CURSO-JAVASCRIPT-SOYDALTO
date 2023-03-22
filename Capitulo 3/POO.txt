@@ -1,0 +1,6 @@
+Definicion y uso: actualiza la forma en la que programamos, que programemos objetos como lo hacemos en la vida real
+CLASE: Tenemos una fabrica que produce un producto
+OBJETO: Son los resultados de las clases
+ATRIBUTOS: CARACTERISCAS
+METODO: LO QUE PUEDE REALIZAR - 
+CONSTRUCTOR: CONTRUYE LAS PARTICULARIDADES DE UN OBJETO
