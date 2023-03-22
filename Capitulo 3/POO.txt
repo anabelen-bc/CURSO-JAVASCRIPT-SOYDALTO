@@ -4,3 +4,10 @@ OBJETO: Son los resultados de las clases
 ATRIBUTOS: CARACTERISCAS
 METODO: LO QUE PUEDE REALIZAR - 
 CONSTRUCTOR: CONTRUYE LAS PARTICULARIDADES DE UN OBJETO
+
+
+
+Abstraccion, todo se resume en sus caracteristicas principales
+Modularidad, separar el problema por partes
+Encapsulamiento,intentar que no se tenga acceso a los datos de otros lugares
+Polimorfismo, los objetos se comportan distinto con el mismo metodo, porque sus propiedades son distintas
