@@ -22,12 +22,11 @@ for (i = 0; i < 30; i++){
 for (alumno in alumnosTotales){
     let resultado = `${alumnosTotales[alumno][0]}:<br>
     ________Presentes: ${alumnosTotales[alumno][1]}<br>
-    ________Ausentes: ${30 - parseInt(alumnosTotales[alumno[1]])}
-    `;
+    ________Ausentes: ${30 - parseInt(alumnosTotales[alumno][1])}`;
     if (30 - alumnosTotales[alumno][1] > 18){
         resultado+="Reprobado por inasistencias";       
     } else {
         resultado+="<br><br>"
     }
-    document.write(resultado)
+    document.write(resultado);
 }
