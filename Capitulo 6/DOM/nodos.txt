@@ -1,0 +1,20 @@
+El dom es la interfaz que conitenen todas los objetos estandar, que contiene htlm css y js
+
+El DOM contiene a los elementos HTML, que a su vez se divide en dos ramas, que son el HEAD, que contiene al titulo y al meta. 
+Y al BODY, que contiene al script y a mas elementos
+
+Diferentes tipos de NODOS, Document es el nodo raiz, a partir del cual vamos a trabajar.
+Existen los Element, que son los nodos definidos por etiquetas HTML. 
+Text, es el texto que existen dentro de un Element. 
+Attribute, los atributos son informacion asociada a los nodos por ejemplo src
+Los comentarios y otras declaraciones como doctype generan nodos
+
+Metodos de Seleccion de elementos
+Document.getElementsById() - Selecciona un elemento por ID.
+
+gerElementsByTagName() - Selecciona todos los elementos que coincidan con el nombre de la etiqueta especificada
+querySelector() - Devuelve el primer elemento que coincida con el grupo especificado de selectores.
+
+querySelectorAll() - Nos muestra los elementos que coincidan con el grupo especificado de selectores
+
+A todas las etiquetas ateriores le agregamos el Document al principio
