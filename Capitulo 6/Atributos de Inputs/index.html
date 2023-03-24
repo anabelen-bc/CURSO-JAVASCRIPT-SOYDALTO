@@ -4,13 +4,24 @@
 <head>
     <meta charset="utf-8" />
     <title>Atributos de Inputs</title>
-    <script src="codigo.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 
 
 <body>
-<input type="text" class="input-normal">
+<input type="text" class="input-normal" value="12345"><br><br>
+<input type="text" class="input-normal1" value="12345"><br><br>
+<input type="text" class="input-normal2" value="12345"><br><br>
+<input type="file" class="input-normal3" value="12345"><br><br>
+<form id="formulario">
+    <input type="text" class="input-normal4" minlength="4">
+    <input type="submit">
+</form>
+<!--<input type="submit" form="formulario"> <!-- Si el input esta por fuera del form, no va a formar parte, pero si a ese input le agregamos el atirbuto form, con el id correspondiente si forma parte-->
+
+
+<script src="codigo.js"></script>
 </body>
 
 </html>
