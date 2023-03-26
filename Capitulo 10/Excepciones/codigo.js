@@ -49,3 +49,6 @@ const pruebaTry = ()=>{
 }
 
 console.log(pruebaTry());
+
+// throw, tira errores, nos muestra excepciones
+
