@@ -29,4 +29,4 @@ moveBy () //Mueve la ventana a una ubicacion relativa
 moveTo() //Mueve la ventana a una ubicacion absoluta (Por consola)
 
 // Objetos barprop:
-// locationbar - menubar - personalbar - scrollbar - toolbar (en caso de que sea visible nos devuelve la respuesta true o de lo contrario false)
+// locationbar - menubar - personalbar - scrollbar - toolbar (en caso de que sea visible nos devuelve la respuesta true o de lo contrario git false)
