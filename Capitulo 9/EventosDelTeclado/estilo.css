@@ -1,0 +1,18 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+}
+
+.contenedor-1 {
+    padding: 30px;
+    background: red;
+}
+
+.input.prueba {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 6px;
+    color: #444;
+    outline: none !important;
+
+}
