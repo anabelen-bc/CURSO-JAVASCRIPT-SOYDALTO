@@ -20,3 +20,13 @@ const scrollX = window.scrollX;
 const scrollY = window.scrollY;
 
 alert("X:" + scrollX + "  Y:" + scrollY);
+
+scrollTo(x, y); //Sirve para en consolar poder ubicar el lugar que deseemos
+
+resizeBy() // Cambia el tamaño de la ventana, al que le especifiquemos en los parentesis (Por consola)
+resizeTo() //redimensiona dinamicamente la ventana (Por consola)
+moveBy () //Mueve la ventana a una ubicacion relativa
+moveTo() //Mueve la ventana a una ubicacion absoluta (Por consola)
+
+// Objetos barprop:
+// locationbar - menubar - personalbar - scrollbar - toolbar (en caso de que sea visible nos devuelve la respuesta true o de lo contrario false)
