@@ -1,0 +1,14 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+}
+
+.contenedor-1 {
+    padding: 30px;
+    background: red;
+}
+
+.contenedor-2{
+    padding: 30px;
+    background: blue;
+}
