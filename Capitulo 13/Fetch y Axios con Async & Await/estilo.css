@@ -1,0 +1,22 @@
+body {
+    color : #fff;
+    font-family: sans-serif;
+}
+
+#getName, #getApe {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.nombre, .apellido {
+    background: #000;
+    color: #fff;
+    font-size: 32px;
+    margin: 5px;
+    display: inline-block;
+
+}
+
+.nombre {
+     background: #adfe6a;
+}
